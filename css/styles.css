@@ -1,7 +1,7 @@
 :root { 
- --navy: rgb(11, 69, 108);
- --goldcolor: #c5b358;
- --whitecolor: #f6f1f8;
+ --navy: rgb(174, 195, 209);
+ --goldcolor: #330654;
+ --whitecolor: #330654;
 }
 
 body {background-color: var(--navy);
