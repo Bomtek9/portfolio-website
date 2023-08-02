@@ -68,6 +68,20 @@ a:active {
   text-align: center;
   justify-content: center;
 }
+.page-footer {
+    text-align: center;
+    margin-top: 20px; /* Adjust this value as needed to control the gap */
+}
+
+.page-footer a {
+    color: var(--whitecolor);
+    text-decoration: none;
+}
+
+.page-footer a:hover {
+    opacity: 0.8;
+}
+
 
 .profile {
   max-width: 700px;
