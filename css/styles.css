@@ -230,4 +230,17 @@ button:focus,
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+.contact {
+text-align: center;
+margin: 10px 0;
+}
 
+.contact address,
+.contact a {
+  display: block;
+  margin: 10px 0; /* Add some spacing between address and links */
+}
+
+.form-group {
+margin-top: 10px;
+}
