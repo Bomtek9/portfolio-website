@@ -147,9 +147,11 @@ a:active {
   .grid {
     grid-gap: 10px;
   }
-  .grid__item:last-child {
+  .grid__item1 {
     grid-column: auto / auto;
     grid-row: auto / auto;
+    text-align: center;
+    align-items: center;
   }
   h1 {
     font-size: 22px;
@@ -244,3 +246,4 @@ margin: 10px 0;
 .form-group {
 margin-top: 10px;
 }
+
