@@ -5,9 +5,9 @@
 }
 
 body {
-  background: linear-gradient(to bottom, var(--navy), #34495E);
+  background: linear-gradient(to bottom, var(--navy),  rgb(36, 76, 103));
   font-family: 'Ubuntu', sans-serif;
-  margin: 5px;
+  margin: 0px;
   color: var(--whitecolor);
 }
 
@@ -70,7 +70,7 @@ a:active {
 }
 .page-footer {
     text-align: center;
-    margin-top: 20px; /* Adjust this value as needed to control the gap */
+    margin-top: 10pxpx; /* Adjust this value as needed to control the gap */
 }
 
 .page-footer a {
