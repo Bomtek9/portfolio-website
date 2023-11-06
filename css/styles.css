@@ -37,7 +37,7 @@ a {
 p {
   color: var(--whitecolor);
   font-family: 'Dancing Script';
-  font-size: 25px
+  font-size: 20px
 }
 
 a:hover,
@@ -48,6 +48,7 @@ a:focus {
 
 a:visited {
   color: var(--whitecolor);
+
 }
 
 a:active {
@@ -118,6 +119,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  
 }
 
 .grid__item {
