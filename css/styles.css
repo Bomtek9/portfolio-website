@@ -1,11 +1,12 @@
 :root {
-  --navy: rgb(36, 76, 103);
-  --goldcolor: #F39C12;
-  --whitecolor: #ECF0F1;
+  --navy: rgb(145, 149, 151);
+  --goldcolor: #e0d508;
+  --whitecolor: #150f4e;
 }
 
+
 body {
-  background: linear-gradient(to bottom, var(--navy),  rgb(36, 76, 103));
+  background: linear-gradient(to bottom, var(--navy),  rgb(145, 149, 151));
   font-family: 'Ubuntu', sans-serif;
   margin: 0px;
   color: var(--whitecolor);
@@ -124,6 +125,7 @@ a:active {
 }
 
 .table {
+  padding: 10px;
   color: var(--whitecolor);
 }
 
@@ -164,7 +166,7 @@ button {
   display: inline-block;
   font-family: inherit;
   background: linear-gradient(to bottom, var(--goldcolor), #C0392B);
-  color: var(--navy);
+  color:#150f4e;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
