@@ -1,16 +1,13 @@
 :root {
-  --navy: rgb(145, 149, 151);
-  --goldcolor: #e0d508;
-  --whitecolor: #150f4e;
+  --navy: rgb(11, 69, 108);
+  --goldcolor: #c5b358;
+  --whitecolor: #f6f1f8;
 }
 
-
 body {
-  background: linear-gradient(to bottom, var(--navy), rgb(145, 149, 151));
+  background-color: var(--navy);
   font-family: 'Ubuntu', sans-serif;
-  margin: 0; /* Reset margin to zero */
-  padding: 0; /* Reset padding to zero */
-  color: var(--whitecolor);
+  margin: 5px;
 }
 
 * {
@@ -25,20 +22,18 @@ h1 {
 h2 {
   font-size: 40px;
   color: var(--goldcolor);
-  font-style: bold;
   font-weight: 700;
 }
 
 a {
   color: var(--whitecolor);
-  font-style: bold;
-  
+  font-weight: bold;
 }
 
 p {
   color: var(--whitecolor);
-  font-family: 'Dancing Script';
-  font-size: 20px
+  font-style: italic;
+  font-weight: bold;
 }
 
 a:hover,
@@ -49,7 +44,6 @@ a:focus {
 
 a:visited {
   color: var(--whitecolor);
-
 }
 
 a:active {
@@ -72,20 +66,6 @@ a:active {
   text-align: center;
   justify-content: center;
 }
-.page-footer {
-    text-align: center;
-    margin-top: 10px; /* Adjust this value as needed to control the gap */
-}
-
-.page-footer a {
-    color: var(--whitecolor);
-    text-decoration: none;
-}
-
-.page-footer a:hover {
-    opacity: 0.8;
-}
-
 
 .profile {
   max-width: 700px;
@@ -94,7 +74,7 @@ a:active {
 
 .page-header {
   display: flex;
-  align-items: center; /* Center items vertically */
+  width: 100%;
   padding: 20px;
 }
 
@@ -120,16 +100,14 @@ a:active {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  
 }
 
 .grid__item {
   display: inline-block;
-  background: linear-gradient(to bottom, var(--navy), #5d5a5f);
+  background-color: var(--navy);
 }
 
 .table {
-  padding: 10px;
   color: var(--whitecolor);
 }
 
@@ -153,11 +131,10 @@ a:active {
   .grid {
     grid-gap: 10px;
   }
-  .grid__item1 {
+  .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
     text-align: center;
-    align-items: center;
   }
   h1 {
     font-size: 22px;
@@ -169,8 +146,8 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background: linear-gradient(to bottom, var(--goldcolor), #C0392B);
-  color:#150f4e;
+  background: var(--goldcolor);
+  color: var(--navy);
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -188,23 +165,14 @@ button:focus,
 }
 
 @keyframes color-change {
-  from {
-    fill: #C5B358;
-  }
-  to {
-    fill: #CB471A;
-  }
-}
-
-@keyframes color-change {
   0% {
-    fill: #EDC655;
+    fill: #edc655;
   }
   50% {
-    fill: #C5B358;
+    fill: #c5b358;
   }
   100% {
-    fill: #F76414;
+    fill: #f76414;
   }
 }
 
@@ -237,21 +205,3 @@ button:focus,
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
-
-.contact {
-text-align: center;
-margin: 10px 0;
-}
-
-.contact address,
-.contact a {
-  display: block;
-  margin: 10px 0; /* Add some spacing between address and links */
-}
-
-.form-group {
-margin-top: 10px;
-}
-
-
-
